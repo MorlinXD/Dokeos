@@ -312,9 +312,9 @@ if($num_of_slides <> 0){
 	}
 }
 else {
-	$slides[] = array('image'=>'main/img/slide01.jpg','title'=>get_lang('YourTitle1'),'link'=>'#','caption'=>get_lang('YourCaption1'),'alttext'=>get_lang('AltText1'));
-	$slides[] = array('image'=>'main/img/slide02.jpg','title'=>get_lang('YourTitle2'),'link'=>'#','caption'=>get_lang('YourCaption2'),'alttext'=>get_lang('AltText2'));
-	$slides[] = array('image'=>'main/img/slide03.jpg','title'=>get_lang('YourTitle3'),'link'=>'#','caption'=>get_lang('YourCaption3'),'alttext'=>get_lang('AltText3'));
+	$slides[] = array('image'=>'main/img/brasil.jpg','title'=>get_lang('YourTitle1'),'link'=>'#','caption'=>get_lang('Brasil 2014'),'alttext'=>get_lang('AltText1'));
+	$slides[] = array('image'=>'main/img/russia.jpg','title'=>get_lang('YourTitle2'),'link'=>'#','caption'=>get_lang('Rusia 2018'),'alttext'=>get_lang('AltText2'));
+	$slides[] = array('image'=>'main/img/qatar2.jpg','title'=>get_lang('YourTitle3'),'link'=>'#','caption'=>get_lang('Qatar 2022'),'alttext'=>get_lang('AltText3'));
 }
 if (empty($_GET['include']) && $show_slide == 1) {
 echo '<div id="container">
