@@ -1,0 +1,12 @@
+{
+  "name": "dokeos-2.1.1",
+  "version": "1.0.0",
+  "description": "for more information open documentation/index.html in your favorite or less favorite browser.",
+  "main": "index.html",
+  "directories": {
+    "test": "tests"
+  },
+  
+  "author": "",
+  "license": "ISC"
+}
