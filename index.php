@@ -116,6 +116,13 @@ $_setting['display_courses_to_anonymous_users'] = 'true';
 if (isset($_user['user_id'])) {
 	$nameTools = api_get_setting('siteName');
 }
+/*
+-----------------------------------------------------------------------------
+IDIOMA PREDETERMINADO
+-----------------------------------------------------------------------------
+*/
+setlocale(LC_ALL, 'es_ES.UTF-8'); //asigna español como idioma principal.
+
 
 /*
 ==============================================================================
@@ -1221,3 +1228,14 @@ function display_create_course_link_tablet() {
 function display_edit_course_list_links_tablet() {
 	echo "<a href=\"main/auth/courses.php\">".Display::return_icon('pixel.gif', get_lang('SortMyCourses'), array('class' => 'homepage_button homepage_catalogue','align'=>'absmiddle')).get_lang('SortMyCourses')."</a>";
 }
+
+//Mostrar Boton de tutorial 
+$youtubeVideoUrl = 'https://youtu.be/Jv4O_XeHPyA?t=78'; // URL del video de YouTube 
+$htmlButton = '<a href="' . $youtubeVideoUrl . '" target="_blank">
+                    <button id="youtubeButton" style="position: fixed; top: 10px; right: 10px; padding: 10px; font-size: 16px; background-color: #808080; color: #ffffff; border: none; cursor: pointer;">
+                        Ver Tutorial
+                    </button>
+                </a>';
+
+// Mostramos el botón
+echo $htmlButton;

@@ -1,165 +1,132 @@
-/* styles for html elements */
+/* Estilos Modernos */
 html {
-	color: #424242;
-	font-family: arial, verdana, helvetica, sans-serif;
-	font-size: 12px;
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	/* hack ignored by non-IE to enable ie to support :hover on button */
-	behavior:url("/main/css/csshover3.htc");
+    color: #333;
+    font-family: 'Arial', 'Verdana', 'Helvetica', sans-serif;
+    font-size: 16px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* Hack ignorado por navegadores que no son IE para habilitar :hover en botones en IE */
+    behavior: url("/main/css/csshover3.htc");
 }
-.formCero{
-   margin: 0px;
-   padding: 0px;
+
+body {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
 }
-body{
-	background-color: #e3e4e8;
-	margin:0;
-	padding: 0;
-}
-img {
-	border: none;
-}
+
 h1 {
-	font-size: 21px;
+    font-size: 28px;
 }
+
 h2 {
-	font-size: 18px;
+    font-size: 24px;
 }
+
 h3 {
-	font-size: 15px;
+    font-size: 20px;
 }
+
 h4 {
-	font-size: 12px;
+    font-size: 16px;
 }
+
 a {
-	text-decoration: none;
+    text-decoration: none;
+    color: #0066cc;
 }
 
-a:link, a:visited, a:active {
-	color: #424242;
-}
 a:hover {
-	color: #1084A7;
+    color: #004080;
 }
 
-/* form elements */
-select, textarea, input{
-	background-color: #fff;
-	border:1px solid #b8b8b6;
-	border-radius: 5px;
-	color : #333;
-	cursor: pointer;
-	padding-left:3px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
+/* Elementos de formulario */
+select, textarea, input {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+    cursor: pointer;
+    padding: 10px;
 }
-input[type="text"], textarea{
-	/*width: 795px;*/
+
+input[type="text"], textarea {
+    width: 100%;
+    box-sizing: border-box;
 }
-input[type="text"], input[type="password"]{
-	height: 20px;
+
+input[type="text"], input[type="password"] {
+    height: 40px;
 }
-select:hover, select:focus, textarea:hover, textarea:focus, input:hover, input:focus{
-	background-color: #f6f6f6;
-	border-radius: 5px;
-	color : #333;
-	border:1px solid #1084a7;
-	cursor: pointer;
+
+select:hover, select:focus, textarea:hover, textarea:focus, input:hover, input:focus {
+    background-color: #f9f9f9;
+    border: 1px solid #0066cc;
+    cursor: pointer;
 }
-button {
-	color : #7f7f7f;
-	background-color: #e8e8e8;
-	border:1px solid #7f7f7f;
-	border-radius: 8px;
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
-	cursor: pointer;
-	min-height: 28px;
-	padding:5px;
-	vertical-align:middle;
-	text-transform:uppercase;
-	font-weight:bold;
+
+/* Botones */
+button, .bottom-link {
+    color: #fff;
+    background-color: #0066cc;
+    border: 1px solid #005bb5;
+    border-radius: 5px;
+    cursor: pointer;
+    min-height: 40px;
+    padding: 10px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-weight: bold;
 }
-/* New training */
+
 .bottom-link {
-	color : #fff;
-	background-color: #e8e8e8;
-	border:1px solid #b8b8b6;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	cursor: pointer;
-	height: 28px;
-	padding:5px;
-	vertical-align:middle;
-	text-transform:uppercase;
-	font-weight:bold;
-}
-.bottom-link:hover, button:hover {
-	color : #fff;
-	background-color: #7f7f7f;
-	border:1px solid #1084A7;
-	cursor: pointer;
-	padding:5px;
+    background-color: #007bff;
 }
 
+/* Estados de botones */
+button:hover, .bottom-link:hover {
+    background-color: #004080;
+}
+
+/* Iconos con texto en botones */
 #additional_profile_field_form button:hover {
-	color : #008AAA;
+    color: #008AAA;
 }       
 
-.bottom-link:active {
-	border: 1px solid #B8B8B6;
-}
-.bottom-link:link {
-	border-style: solid;
-	text-decoration : none;
-	border : 1px solid #B8B8B6;
-}
-
-/* button with image */
-.bottom-link, button.add, button.save, button.cancel, button.refresh, button.upload, button.search, button.login, button.plus, button.minus, button.next, button.back, button.save_link {
-	background-repeat:no-repeat;
-	float:right;
-	/*padding-left:30px;*/
-}
-.bottom-link:hover, button.add:hover, button.save:hover, button.cancel:hover, button.refresh:hover, button.upload:hover, button.search:hover, button.login:hover, button.plus:hover, button.minus:hover, button.next:hover, button.back {
-	cursor: pointer;
-	background-repeat:no-repeat;
-	/*padding-left:30px;*/
+/* Estilos específicos para botones con imágenes */
+button.upgrade_link, button.previous_link, button.login_link, button.deny_link, button.save_link, input.button-upload {
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    text-align: left;
+    padding-left: 40px;
+    border: 0;
+    cursor: pointer;
+    height: 50px;
+    color: #333;
 }
 
-button.upgrade_link, button.previous_link, button.login_link, button.deny_link, button.save_link, input.button-upload{
-	background-position:left;
-	background-repeat:no-repeat;
-	background-color:transparent;
-	text-align: left;
-	padding-left: 28px;
-	border-width:0;
-	cursor:pointer;
-	height: 32px;
-	color: #424242;
+/* Imágenes para botones específicos */
+button.upgrade_link, button.save_link {
+    background-image: url(../../img/checkok_32.png) !important;
 }
 
-button.upgrade_link {
-	background-image:url(../../img/checkok_32.png) !important;
-}
-button.save_link {
-	background-image:url(../../img/checkok_32.png) !important;
-}
 button.previous_link {
-	background-image:url(../../img/go_previous_32.png) !important;
+    background-image: url(../../img/go_previous_32.png) !important;
 }
+
 button.login_link {
-	background-image:url(../../img/security_32.png) !important;
+    background-image: url(../../img/security_32.png) !important;
 }
+
 button.deny_link {
-	background-image:url(../../img/delete_22.png) !important;
+    background-image: url(../../img/delete_22.png) !important;
 }
+
 input.button-upload {
-	background-image:url(../../img/up_22.png) !important;
-	background-repeat:no-repeat;
+    background-image: url(../../img/up_22.png) !important;
+    background-repeat: no-repeat;
 }
 
 /* button that does the same action on multiple items (sortable table) */
