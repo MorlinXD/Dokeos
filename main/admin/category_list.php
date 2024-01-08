@@ -128,11 +128,11 @@ $tool_name = get_lang("SystemAnnouncements");
     xtsd = "http://logi3";
     xtsite = "257797";
     xtn2 = "3"; //utiliser le numero du niveau 2 dans lequel vous souhaitez ranger la page
-    xtpage = "formations-DF::inscription"; //placer un libellé de page pour les rapports Xiti
-    roimt = ""; //valeur du panier pour ROI (uniquement pour les pages définies en transformation)
-    roitest = false; //à true uniquement si vous souhaitez effectuer des tests avant mise en ligne
-    visiteciblee = false; //à true pour les pages qui caractérisent une visite ciblée
-    xtprm = ""; //Paramètres supplémentaires (optionnel)
+    xtpage = "formations-DF::inscription"; //placer un libellï¿½ de page pour les rapports Xiti
+    roimt = ""; //valeur du panier pour ROI (uniquement pour les pages dï¿½finies en transformation)
+    roitest = false; //ï¿½ true uniquement si vous souhaitez effectuer des tests avant mise en ligne
+    visiteciblee = false; //ï¿½ true pour les pages qui caractï¿½risent une visite ciblï¿½e
+    xtprm = ""; //Paramï¿½tres supplï¿½mentaires (optionnel)
     //-->
     </script>
     <script type="text/javascript" src="http://www.formation-publique.fr/xtroi.js"></script>

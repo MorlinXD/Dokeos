@@ -561,7 +561,7 @@ foreach($resultcategories as $row)
                                                                                     
 }
 //echo "\n\t<a href=\"".api_get_self()."?category=Plugins\">".Display::return_icon($action_images['plugins'], api_ucfirst(get_lang('Plugins'))).api_ucfirst(get_lang('Plugins'))."</a>";
-echo "\n\t<a href=\"".api_get_self()."?category=stylesheets\">".Display::return_icon('pixel.gif',get_lang('Stylesheets'), array('class' => 'actionplaceholdericon actionstheme')).api_ucfirst(get_lang('Stylesheets'))."</a>";
+//echo "\n\t<a href=\"".api_get_self()."?category=stylesheets\">".Display::return_icon('pixel.gif',get_lang('Stylesheets'), array('class' => 'actionplaceholdericon actionstheme')).api_ucfirst(get_lang('Stylesheets'))."</a>";
 echo "\n\t<a href=\"".api_get_self()."?category=Templates\">".Display::return_icon('pixel.gif',get_lang('Templates'), array('class' => 'actionplaceholdericon actionstoolswizard')).api_ucfirst(get_lang('Templates'))."</a>";
 // advanced parameters
 echo "\n\t<a href=\"".api_get_self()."?category=Advanced\">".Display::return_icon('pixel.gif',get_lang('AdvancedParameters'), array('class' => 'actionplaceholdericon actionadvanced')).api_ucfirst(get_lang('AdvancedParameters'))."</a>";

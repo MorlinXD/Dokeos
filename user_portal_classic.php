@@ -271,10 +271,10 @@ function get_personal_course_list($user_id) {
  * Warning: this function defines a global.
  * @todo use the correct get_path function
  */
-function display_admin_links() {
+/*function display_admin_links() {
 	global $rootAdminWeb;
 	echo "<li><a href=\"".$rootAdminWeb."\">".get_lang('PlatformAdmin')."</a></li>";
-}
+}*/
 
 /**
  * Enter description here...

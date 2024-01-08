@@ -3,8 +3,8 @@
 body {
 font-family:arial,verdana;
 font-size:1em;
-color: red;
-background-color: #FFF;
+color:#424242;
+background-color: #ffffff;
 }
 
 * {
@@ -15,7 +15,7 @@ border:0;
 }
 
 #header {
-background-image:url(../../img/templates/header.jpg);
+background-image:url(/dokeos/main/img/templates/header.jpg);
 background-repeat:repeat-x;
 width:100%;
 }
@@ -66,8 +66,8 @@ margin-bottom:10px;
 }
 
 h1 {
-font-size:1.7em; font-weight:normal; color: #1084A7; margin:20px; padding: 10px 0px;
-border-bottom:1px dotted #1084A7;
+font-size:1.7em; font-weight:normal; color: #182c45; margin:20px; padding: 10px 0px;
+border-bottom:1px dotted #182c45;
 }
 
 .smallwhite h1 {
@@ -78,22 +78,22 @@ h1.orange {
 font-size :2.7em;
 font-weight:normal;
 padding: 20px 5px 7px 0px;
-border-bottom:1px dotted #1084A7;
+border-bottom:1px dotted #182c45;
 margin-bottom:20px;
 margin-right:10px;
 text-align:left;
 }
 
 h2 {
-color: #1084A7; font-size:1.2em;
+color: #182c45; font-size:1.2em;
 font-weight:normal;
 padding:0px 5px 15px 0px;
 }
 
 h3 {
 font-size:1em;
-color: #1084A7;
-background-image:url(../../img/templates/biblio-bullet.png);
+color: #182c45;
+background-image:url(/dokeos/main/img/templates/biblio-bullet.png);
 background-repeat:no-repeat;
 font-weight:normal;
 padding:1px 5px 5px 25px;
@@ -102,7 +102,7 @@ text-decoration:underline;
 
 h3.tablet_title {
     
-    color: #1084A7;
+    color: #182c45;
     display: block;
     font-size: 130%;
     font-weight: bold;
@@ -123,7 +123,7 @@ padding:0px 5px 15px 15px;
 
 
 /******************************************** liste items ****************************************************/
-td#buble-talk, td#buble-talk2 {background-image:url(../../img/templates/bubble-talk.png); background-position:bottom left; background-repeat:no-repeat; padding:0px 20px 30px 20px; color: #e25502;}
+td#buble-talk, td#buble-talk2 {background-image:url(/dokeos/main/img/templates/bubble-talk.png); background-position:bottom left; background-repeat:no-repeat; padding:0px 20px 30px 20px; color: #182C45;}
 
 table.perso-and-buble {width:260px;}
 
@@ -132,7 +132,7 @@ margin:2px;
 }
 
 td.arrow {
-background-image:url(../../img/templates/orange-arrow.png);
+background-image:url(/dokeos/main/img/templates/orange-arrow.png);
 background-repeat:no-repeat;
 background-position:5px 0px;
 padding-bottom:10px;
@@ -148,7 +148,7 @@ vertical-align:bottom;
 
 
 td.roundcell{
-background-image:url(../../img/templates/pattern1.jpg);
+background-image:url(/dokeos/main/img/templates/pattern1.jpg);
 background-repeat:repeat-x;
 width:40%;
 padding:20px;
@@ -163,11 +163,11 @@ margin:0px 30px;
 }
 
 .PI {
-background-image:url(../../img/templates/scotch-post-it.jpg); background-repeat:no-repeat;
+background-image:url(/dokeos/main/img/templates/scotch-post-it.jpg); background-repeat:no-repeat;
 }
 
 .PI-corner {
-background-image:url(../../img/templates/corner-post-it.jpg); background-repeat:no-repeat; background-position:bottom right; width:450px;
+background-image:url(/dokeos/main/img/templates/corner-post-it.jpg); background-repeat:no-repeat; background-position:bottom right; width:450px;
 }
 
 .PI-corner td {
@@ -182,7 +182,7 @@ line-height:1.5em;
 
 /******************************************** pyramide ******************************************************/
 .pyramide-background {
-width:580px; background-image:url(../../img/templates/pyramide.jpg); background-repeat:no-repeat; background-position:top center; text-align:center; margin:0px 10px; padding-top:70px;
+width:580px; background-image:url(/dokeos/main/img/templates/pyramide.jpg); background-repeat:no-repeat; background-position:top center; text-align:center; margin:0px 10px; padding-top:70px;
 text-align:center;
 }
 
@@ -204,7 +204,7 @@ padding:10px 0px;
 margin:15px 10px 40px 10px;
 }
 
-td#buble-talk2 {background-image:url(../../img/templates/little-bubble-talk.png);}
+td#buble-talk2 {background-image:url(/dokeos/main/img/templates/little-bubble-talk.png);}
 
 
 /********************************************* tableau *****************************************************/
@@ -245,7 +245,7 @@ border:1px solid #cccccc;
 
 td.item-image-legende {
 padding:5px;
-background-image:url(../../img/templates/pattern2.jpg);
+background-image:url(/dokeos/main/img/templates/pattern2.jpg);
 background-repeat:repeat-x;
 text-align:center;
 width:33%;
@@ -253,7 +253,7 @@ width:33%;
 }
 
 td.item-image-legende p {
-	font-size:0.9em; padding:5px; color: #1084A7; text-align:center; margin:0px 15px;
+	font-size:0.9em; padding:5px; color: #182c45; text-align:center; margin:0px 15px;
 }
 
 .cellscontent2 {margin:20px 20px 40px 20px; width:860px; border-collapse:separate;}
@@ -276,7 +276,7 @@ width:95px;
 
 
 td.cell-item-process {
-background-image:url(../../img/templates/process-grey.jpg);
+background-image:url(/dokeos/main/img/templates/process-grey.jpg);
 background-repeat:no-repeat;
 background-position:center left;
 }
@@ -333,7 +333,7 @@ border:1px solid #cccccc; background-color:#9b9fa7; font-size:0.9em; color: #fff
 }
 
 /******************************************SON*****************************************************/
-td#buble-talk-ud {background-image:url(../../img/templates/bubble-talk-ud.png); background-position:bottom left; background-repeat:no-repeat; padding:0px 20px 30px 20px; color: #e25502;}
+td#buble-talk-ud {background-image:url(/dokeos/main/img/templates/bubble-talk-ud.png); background-position:bottom left; background-repeat:no-repeat; padding:0px 20px 30px 20px; color: #182C45;}
 
 table.sound {margin-left:50px; width:500px;}
 td.readsound {padding:5px; text-align:center; background-color:#d6d6d5; border:1px solid #b8b7b9;}
@@ -343,7 +343,7 @@ td.commentsound {padding-top:40px; padding-left:15px; padding-right:15px;}
 
 
 
-.the-tableau h4 {color: #1084A7; padding-bottom:15px; font-weight:normal; font-style:italic;}
+.the-tableau h4 {color: #182c45; padding-bottom:15px; font-weight:normal; font-style:italic;}
 
 .ligne-K td{
 padding:10px;
@@ -360,7 +360,7 @@ padding:10px;
 }
 
 .the-tableau ul {
-list-style-image:url(../../img/templates/orange-bullet.png);
+list-style-image:url(/dokeos/main/img/templates/orange-bullet.png);
 margin-left:25px;
 }
 
@@ -387,7 +387,7 @@ margin-left:35px;
 }
 
 td.book {
-background-image:url(../../img/templates/biblio-bullet.png);
+background-image:url(/dokeos/main/img/templates/biblio-bullet.png);
 background-repeat:no-repeat;
 padding-bottom:15px;
 }
@@ -413,7 +413,7 @@ background-image:none; /* inorder to replace the current style h3 : the bullet i
 /**********************************************rouages*********************************************************/
 
 .rouages {
-background-image:url(../../img/templates/gears.jpg);
+background-image:url(/dokeos/main/img/templates/gears.jpg);
 background-repeat:no-repeat;
 width:500px;
 height:400px;
@@ -424,7 +424,7 @@ color:#666;
 
 
 td#buble-talk2-ud {
-background-image:url(../../img/templates/little-bubble-talk-ud.png); background-position:bottom left; background-repeat:no-repeat; padding:30px 20px 30px 20px; color: #e25502;
+background-image:url(/dokeos/main/img/templates/little-bubble-talk-ud.png); background-position:bottom left; background-repeat:no-repeat; padding:30px 20px 30px 20px; color: #182C45;
 }
 
 #bord-un {
@@ -470,25 +470,25 @@ color:#666;
 }
 
 table.circ-a1 {
-background-image:url(../../img/templates/circular-mil.jpg);
+background-image:url(/dokeos/main/img/templates/circular-mil.jpg);
 width:450px;
 }
 
 table#circ-a2 {
-background-image:url(../../img/templates/circular-haut.jpg);
+background-image:url(/dokeos/main/img/templates/circular-haut.jpg);
 background-repeat:no-repeat;
 width:450px;
 }
 
 table#circ-a3 {
-background-image:url(../../img/templates/circular-bas.jpg);
+background-image:url(/dokeos/main/img/templates/circular-bas.jpg);
 background-position:bottom left;
 background-repeat:no-repeat;
 width:450px;
 }
 
 td.circular-item {
-background-image:url(../../img/templates/degrade1.jpg);
+background-image:url(/dokeos/main/img/templates/degrade1.jpg);
 background-repeat:repeat-x;
 width:120px;
 padding:15px 5px;
@@ -530,7 +530,7 @@ background-repeat:repeat-x;
 }
 
 table.grey-arrow td {
-background-image:url(../../img/templates/pattern5.jpg);
+background-image:url(/dokeos/main/img/templates/pattern5.jpg);
 }
 
 table.dark-grey td {
@@ -543,7 +543,7 @@ background-color: #7a7d84;
 
 
 table.grey-arrow td.fleche-grise {
-background-image:url(../../img/templates/fleche-grise.jpg);
+background-image:url(/dokeos/main/img/templates/fleche-grise.jpg);
 background-position:top center;
 background-repeat:no-repeat;
 height:18px;
@@ -564,7 +564,7 @@ width:470px;
 td.arrow-ch-int {
 width:100%;
 border-top:5px solid #d9dbde; 
-background-image:url(../../img/templates/fon-essai.jpg);
+background-image:url(/dokeos/main/img/templates/fon-essai.jpg);
 background-repeat:no-repeat;
 background-position:bottom center;
 padding-bottom:40px;
@@ -590,7 +590,7 @@ margin-left:70px;
 
 table.ch-end td {
 padding:3px 0px;
-background-image:url(../../img/templates/grey-pattern.jpg);
+background-image:url(/dokeos/main/img/templates/grey-pattern.jpg);
 background-repeat:repeat-x;
 background-position:top left;
 color:#999ba0;
@@ -600,7 +600,7 @@ table.ch-end td h2 {
 font-weight:normal;
 font-size:1.1em;
 margin:0px 15px;
-color: #1084A7;
+color: #182c45;
 
 }
 
@@ -622,7 +622,7 @@ height:326px;
 
 .certif-in td {
 background-color:#FFFFFF;
-background-image:url(../../img/templates/laurel.jpg);
+background-image:url(/dokeos/main/img/templates/laurel.jpg);
 background-repeat:no-repeat;
 background-position:bottom center;
 border:1px solid #cacbcc;
@@ -658,7 +658,7 @@ font-size:0.8em; font-weight:bold; text-align:right;
 /*************************************************** growth ***********************************************/
 
 .growth {
-background-image:url(../../img/templates/climbing-arrow.jpg);
+background-image:url(/dokeos/main/img/templates/climbing-arrow.jpg);
 background-repeat:no-repeat;
 width:500px;
 margin-left:50px;
@@ -685,7 +685,7 @@ padding-top:0px; padding-bottom:25px;
 
 span.orange-bold {
 font-weight:bold;
-color: #1084A7;
+color: #182c45;
 }
 
 
@@ -775,8 +775,8 @@ color:#fff;
 }
 
 td.part h3 {
-color:#1084A7;
-background-image:url(../../img/templates/orange-arrow.png);
+color:#182c45;
+background-image:url(/dokeos/main/img/templates/orange-arrow.png);
 background-repeat:no-repeat;
 font-size:1em;
 padding:5px 30px 5px 30px;
@@ -790,7 +790,7 @@ padding:5px 40px;
 td.part ul {
 padding:10px 20px 10px 60px;
 font-size:0.9em;
-list-style-image:url(../../img/templates/orange-bullet.png);
+list-style-image:url(/dokeos/main/img/templates/orange-bullet.png);
 }
 
 td.part li {
@@ -820,7 +820,7 @@ width:480px;
 
 .item2 {
 margin:12px;
-background-image:url(../../img/templates/grey-pattern.jpg);
+background-image:url(/dokeos/main/img/templates/grey-pattern.jpg);
 background-repeat:repeat-x;
 background-color: #ffffff;
 border:1px solid #ffffff;
@@ -829,7 +829,7 @@ border:1px solid #ffffff;
 
 .item2 h2 {
 font-size :1.2em;
-color: #1084A7;
+color: #182c45;
 font-weight:normal;
 padding:10px 5px;
 text-align:center; 
@@ -848,12 +848,12 @@ background-color:#ffffff; margin:15px; border:1px solid #bbbbbb; width:806px;
 /******************************************** diagram *********************************************/
 table.diag {
 text-align:center;
-background-image:url(../../img/templates/pattern6.jpg);
+background-image:url(/dokeos/main/img/templates/pattern6.jpg);
 background-repeat:repeat-y;
 background-color:#b3b4b9;
 }
 tr.diagcorpus {
-background-image:url(../../img/templates/pattern4.jpg);
+background-image:url(/dokeos/main/img/templates/pattern4.jpg);
 background-repeat:repeat-x;
 background-color: #ffffff;
 border-collapse:separate;
@@ -917,7 +917,7 @@ font-weight:bold;
 }
 
 table.methodology td.methoarrow {
-background-image:url(../../img/templates/methodologyarrow.png);
+background-image:url(/dokeos/main/img/templates/methodologyarrow.png);
 background-position:left center;
 background-repeat:no-repeat;
 padding-left:40px;
@@ -935,7 +935,7 @@ padding:15px;
 td.methofirst ul li{
 margin:17px 5px 17px 7px;
 padding-left:5px;
-list-style-image:url(../../img/templates/liarrow.png);
+list-style-image:url(/dokeos/main/img/templates/liarrow.png);
 }
 
 /************************************************phases *****************************************************/
@@ -948,7 +948,7 @@ margin-right:25px;
 
 td.phase {
 width:33%;
-background-image:url(../../img/templates/verticalarrow.png);
+background-image:url(/dokeos/main/img/templates/verticalarrow.png);
 background-repeat:no-repeat;
 background-position:center bottom;
 padding-bottom:100px;
@@ -956,7 +956,7 @@ padding-bottom:100px;
 
 td.phaseresult h2 {
 margin:15px;
-background-image:url(../../img/templates/pattern6.jpg);
+background-image:url(/dokeos/main/img/templates/pattern6.jpg);
 border:1px solid #cecfd4;
 color:#6e6e70;
 padding:15px;
@@ -1028,7 +1028,7 @@ width:250px;
 }
 
 td.add2 {
-background-image:url(../../img/templates/plus.png);
+background-image:url(/dokeos/main/img/templates/plus.png);
 background-repeat:no-repeat;
 background-position:center left;
 }
@@ -1043,7 +1043,7 @@ padding-top:20px;
 
 td.add1 h2, td.add2 h2 {
 margin:15px;
-background-image:url(../../img/templates/pattern6.jpg);
+background-image:url(/dokeos/main/img/templates/pattern6.jpg);
 border:1px solid #cecfd4;
 color:#6e6e70;
 padding:15px;
@@ -1067,7 +1067,7 @@ margin-left:25px;
 }
 
 .menu-general div a {
-    background-image: url("images/tool/home/link.png");
+    background-image: url("/dokeos/main/css/dokeos2_blue_tablet/images/tool/home/link.png");
     background-repeat: no-repeat;
     background-position: 2px 0;
     display: block;

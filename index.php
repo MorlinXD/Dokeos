@@ -883,8 +883,12 @@ function display_login_form() {
         if (api_get_setting('allow_registration') <> 'false') {
            $html_ul.= '<li><a href="main/auth/inscription.php">'.get_lang('Reg').'</a></li>';
         }
+		//Recuperar la contraseña resaltado 
+		/*MorlinXD
+			Jean Pierre Morales Vera - Software UTEQ - Quevedo, Ecuador
+		 */
         if (api_get_setting('allow_lostpassword') == 'true') {
-          $html_ul.= '<li><a href="main/auth/lostPassword.php">'.get_lang("LostPassword").'</a></li>';
+			$html_ul .= '<li><a href="main/auth/lostPassword.php" style="font-weight: bold; color: #ff0000; text-decoration: underline; font-size: 18px;">'.get_lang("LostPassword").'</a></li>';
         }
         $html_ul.='</ul>';
         // Add html element, Button
@@ -1227,8 +1231,10 @@ function display_create_course_link_tablet() {
  */
 function display_edit_course_list_links_tablet() {
 	echo "<a href=\"main/auth/courses.php\">".Display::return_icon('pixel.gif', get_lang('SortMyCourses'), array('class' => 'homepage_button homepage_catalogue','align'=>'absmiddle')).get_lang('SortMyCourses')."</a>";
-}
-
+}	
+/*MorlinXD
+Jean Pierre Morales Vera - Software UTEQ - Quevedo, Ecuador
+*/
 //Mostrar Boton de tutorial 
 $youtubeVideoUrl = 'https://youtu.be/Jv4O_XeHPyA?t=78'; // URL del video de YouTube 
 $htmlButton = '<a href="' . $youtubeVideoUrl . '" target="_blank">
@@ -1239,3 +1245,50 @@ $htmlButton = '<a href="' . $youtubeVideoUrl . '" target="_blank">
 
 // Mostramos el botón
 echo $htmlButton;
+
+
+echo '<!DOCTYPE html>';
+echo '<html lang="en">';
+echo '<head>';
+echo '<meta charset="UTF-8">';
+echo '<meta name="viewport" content="width=device-width, initial-scale=1.0">';
+echo '<title>Tu Aplicación</title>';
+echo '<style>';
+echo 'body { font-family: Arial, sans-serif; }';
+echo '.tabs { list-style: none; padding: 0; margin: 0; }';
+echo '.tabs li { display: inline-block; margin-right: 10px; }';
+echo '.tab-content { display: none; }';
+echo '.tab-content.active { display: block; }';
+echo '</style>';
+echo '</head>';
+echo '<body>';
+echo '<ul class="tabs">';
+echo '<li><a href="#tab1">Tab 1</a></li>';
+echo '<li><a href="#tab2">Tab 2</a></li>';
+// Agrega más pestañas según sea necesario
+echo '</ul>';
+echo '<div id="tab1" class="tab-content active">';
+include 'contenido_tab1.php';
+echo '</div>';
+echo '<div id="tab2" class="tab-content">';
+include 'contenido_tab2.php';
+echo '</div>';
+// Agrega más contenedores de contenido según sea necesario
+echo '<script>';
+echo 'document.addEventListener("DOMContentLoaded", function() {';
+echo 'const tabs = document.querySelectorAll(".tabs a");';
+echo 'tabs.forEach(tab => {';
+echo 'tab.addEventListener("click", function(event) {';
+echo 'event.preventDefault();';
+echo 'const targetTab = document.querySelector(this.getAttribute("href"));';
+echo 'const activeTabs = document.querySelectorAll(".tab-content.active");';
+echo 'activeTabs.forEach(tab => { tab.classList.remove("active"); });';
+echo 'targetTab.classList.add("active");';
+echo '});';
+echo '});';
+echo '});';
+echo '</script>';
+echo '</body>';
+echo '</html>';
+
+

@@ -66,10 +66,10 @@ if(api_is_platform_admin())
 echo '<div id="content">';
 
 if (api_is_platform_admin()) {
-	?>
-	<div class="admin_section section">
+	/*?>
+	<!--<div class="admin_section section">
 	<div class="admin_section_title sectiontitle"><a href="user_list.php"><?php echo Display::return_icon('pixel.gif', get_lang('HomePage'), array('class' => 'toolactionplaceholdericon toolactionadminusers')); ?> <?php echo api_ucfirst(get_lang('Users')); ?></a></div>
-	<div class="admin_section_content sectioncontent">
+    <div class="admin_section_content sectioncontent">
 	<form method="get" action="user_list.php">
 			<input type="text" name="keyword" value="<?php echo $keyword_url; ?>"/>
 			<button class="search" type="submit"> <?php echo get_lang('Search');?>
@@ -96,7 +96,7 @@ if (api_is_platform_admin()) {
 		</ul>
 	</div>
 	</div>
-<?php
+<?php*/
 }
 else
 {
@@ -148,7 +148,7 @@ if(api_is_platform_admin()) {
 		<!-- dynamic ldap code -->
 		<?php
 		}
-	?>
+	/*?>
 
 	</ul>
 	</div>
@@ -167,7 +167,7 @@ if(api_is_platform_admin()) {
 	  <li><a href="configure_inscription.php"><?php echo get_lang('ConfigureInscription'); ?></a></li>
 	  <li><a href="statistics/index.php"><?php echo get_lang('ToolName'); ?> </a></li>
 	  <li><a href="agenda.php"><?php echo get_lang('GlobalAgenda'); ?> </a></li>
-	  <?php
+	  <?php*/
 	  if (api_get_setting('show_emailtemplates')=='true') {
 	  echo '<li><a href="emailtemplates.php">'.get_lang('Automaticemails').'</a></li>';
 	  }
@@ -198,7 +198,7 @@ if(api_is_platform_admin()) {
 }
 
 if(api_get_setting('show_catalogue')=='true')
-{
+{/*
 ?>
 
 	<div class="admin_section section">
@@ -217,10 +217,10 @@ if(api_get_setting('show_catalogue')=='true')
 	 	</div>
 	</div>
 
-<?php
+<?php*/
 }
 else if(api_get_setting('use_session_mode')=='true')
-{
+{/*
 ?>
 
 	<div class="admin_section section">
@@ -242,7 +242,7 @@ else if(api_get_setting('use_session_mode')=='true')
 	 	</div>
 	</div>
 
-<?php
+<?php*/
 }
 else if(api_is_platform_admin())
 {
@@ -271,7 +271,7 @@ else if(api_is_platform_admin())
 <?php
 }
 
-if(api_is_platform_admin()){
+if(api_is_platform_admin()){/*
 ?>
 <div class="admin_section section">
 <div class="admin_section_title sectiontitle"><a href="http://www.dokeos.com/forum/" target="_blank"><?php echo Display::return_icon('pixel.gif', get_lang('Dokeos'), array('class' => 'toolactionplaceholdericon toolactionadminsupport')); ?> Dokeos Community</a></div>
@@ -285,12 +285,12 @@ if(api_is_platform_admin()){
   <li><a href="http://www.dokeos.com/en/community.php" target="_blank"><?php echo get_lang('WorldwideMap'); ?></a></li>
   <li><a href="http://www.dokeos.com/en/services/e-courses-production" target="_blank"><?php echo get_lang('AuthoringStudio'); ?></a></li>
   <li>
-  <?php
+  <?php*/
   //try to display a maximum before we check the dokeos version and all that
   	//session_write_close(); //close session to avoid blocking concurrent access
 	flush(); //send data to client as much as allowed by the web server
 	//ob_flush();
-	echo get_lang('VersionCheck').': '.get_lang('SiteRegistered');
+	//echo get_lang('VersionCheck').': '.get_lang('SiteRegistered');
   ?>
   </li>
   <!--<li><a href="configure_extensions.php?display=visio"><?php echo get_lang('Visioconf'); ?></a></li>
@@ -336,7 +336,7 @@ if(api_is_platform_admin()){
 	//flush(); //send data to client as much as allowed by the web server
 	//ob_flush();
 	//echo get_lang('VersionCheck').': '.version_check();
-  ?>
+ /* ?>
  <!-- </li>
  </ul>
 </div>
@@ -376,7 +376,7 @@ if(api_is_platform_admin()){
 
 
 <div class="clear">&nbsp;</div>
-<?php
+<?php*/
 }
 
 /**

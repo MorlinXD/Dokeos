@@ -105,7 +105,7 @@ if (!empty($_POST['language_list'])) {
 	if (array_key_exists($_POST['language_list'],$language_list)){
 		$install_language = $_POST['language_list'];
 	} else {
-		$install_language = 'english';
+		$install_language = 'spanish';
 	}
 	include_once "../lang/$install_language/trad4all.inc.php";
 	include_once "../lang/$install_language/install.inc.php";
@@ -117,7 +117,7 @@ if (!empty($_POST['language_list'])) {
 }
 else
 {
-	$install_language = 'english';
+	$install_language = 'spanish';//Cambie idioma de instalacion
 }
 
 // These global variables must be set for proper working of the function get_lang(...) during the installation.

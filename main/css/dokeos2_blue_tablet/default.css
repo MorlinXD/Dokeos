@@ -3712,50 +3712,50 @@ img.placeholdericon{
 /* specific tools */
 /* change the background-image if you want different tools */
 .tool.document {
-	background-image: url(images/tool/home/document.png);
+	background-image: url(images/tool/home/new/doc.png);
 }
 .tool.document.invisible {
 	background-image: url(images/tool/home/document_na.png);
 }
 
 .tool.course_description{
-	background-image: url(images/tool/home/description.png);
+	background-image: url(images/tool/home/new/descripcion.png);
 }
 .tool.course_description.invisible{
 	background-image: url(images/tool/home/description_na.png);
 }
 .tool.author{
-	background-image: url(images/tool/home/author.png);
+	background-image: url(images/tool/home/new/editor.png);
 }
 .tool.author.invisible{
 	background-image: url(images/tool/home/author_na.png);
 }
 .tool.learnpath{
-	background-image: url(images/tool/home/module.png);
+	background-image: url(images/tool/home/new/cubo-3d.png);
 }
 .tool.learnpath.invisible{
 	background-image: url(images/tool/home/module_na.png);
 }
 .tool.link{
-	background-image: url(images/tool/home/link.png);
+	background-image: url(images/tool/home/new/enlace.png);
 }
 .tool.link.invisible{
 	background-image: url(images/tool/home/link_na.png);
 }
 .tool.quiz{
-	background-image: url(images/tool/home/quiz.png);
+	background-image: url(images/tool/home/new/rompecabezas.png);
 }
 .tool.quiz.invisible{
 	background-image: url(images/tool/home/quiz_na.png);
 }
 .tool.mediabox{
-	background-image: url(images/tool/home/mediabox.png);
+	background-image: url(images/tool/home/new/video.png);
 }
 .tool.mediabox.invisible{
 	background-image: url(images/tool/home/mediabox_na.png);
 }
 .tool.dropbox{
-	background-image: url(images/tool/home/dropbox.png);
+	background-image: url(images/tool/home/new/dropbox.png);
 }
 .tool.dropbox.invisible{
 	background-image: url(images/tool/home/dropbox_na.png);
@@ -3764,109 +3764,109 @@ img.placeholdericon{
        background-image: url(images/toolaction/dropbox_shortcut.png);    
 }
 .tool.glossary{
-	background-image: url(images/tool/home/glossary.png);
+	background-image: url(images/tool/home/new/diccionario.png);
 }
 .tool.glossary.invisible{
 	background-image: url(images/tool/home/glossary_na.png);
 }
 .tool.announcement{
-	background-image: url(images/tool/home/announcement.png);
+	background-image: url(images/tool/home/new/anuncio.png);
 }
 .tool.announcement.invisible{
 	background-image: url(images/tool/home/announcement_na.png);
 }
 .tool.calendar_event{
-	background-image: url(images/tool/home/calendar.png);
+	background-image: url(images/tool/home/new/calendario.png);
 }
 .tool.calendar_event.invisible{
 	background-image: url(images/tool/home/calendar_na.png);
 }
 .tool.chat{
-	background-image: url(images/tool/home/chat.png);
+	background-image: url(images/tool/home/new/chat.png);
 }
 .tool.chat.invisible{
 	background-image: url(images/tool/home/chat_na.png);
 }
 .tool.notebook{
-	background-image: url(images/tool/home/notebook.png);
+	background-image: url(images/tool/home/new/computadora-portatil.png);
 }
 .tool.notebook.invisible{
 	background-image: url(images/tool/home/notebook_na.png);
 }
 .tool.user{
-	background-image: url(images/tool/home/user.png);
+	background-image: url(images/tool/home/new/grupo.png);
 }
 .tool.user.invisible{
 	background-image: url(images/tool/home/user_na.png);
 }
 .tool.forum{
-	background-image: url(images/tool/home/forum.png);
+	background-image: url(images/tool/home/new/foro.png);
 }
 .tool.forum.invisible{
 	background-image: url(images/tool/home/forum_na.png);
 }
 .tool.group{
-	background-image: url(images/tool/home/group.png);
+	background-image: url(images/tool/home/new/unido.png);
 }
 .tool.group.invisible{
 	background-image: url(images/tool/home/group_na.png);
 }
 .tool.student_publication{
-	background-image: url(images/tool/home/work.png);
+	background-image: url(images/tool/home/new/portapapeles.png);
 }
 .tool.student_publication.invisible{
 	background-image: url(images/tool/home/work_na.png);
 }
 .tool.wiki{
-	background-image: url(images/tool/home/wiki.png);
+	background-image: url(images/tool/home/new/wikipedia.png);
 }
 .tool.wiki.invisible{
 	background-image: url(images/tool/home/wiki_na.png);
 }
 .tool.survey{
-	background-image: url(images/tool/home/survey.png);
+	background-image: url(images/tool/home/new/resultados-de-la-encuesta.png);
 }
 .tool.survey.invisible{
 	background-image: url(images/tool/home/survey_na.png);
 }
 .tool.mindmap{
-	background-image: url(images/tool/home/mindmap.png);
+	background-image: url(images/tool/home/new/mindmap.png);
 }
 .tool.mindmap.invisible{
 	background-image: url(images/tool/home/mindmap_na.png);
 }
 .tool.blog_management, .tool.blog{
-	background-image: url(images/tool/home/blog.png);
+	background-image: url(images/tool/home/new/blog.png);
 }
 .tool.blog_management.invisible, .tool.blog.invisible{
 	background-image: url(images/tool/home/blog_na.png);
 }
 .tool.copy_course_content{
-	background-image: url(images/tool/home/copy.png);
+	background-image: url(images/tool/home/new/copia-de-datos.png);
 }
 .tool.copy_course_content.invisible{
 	background-image: url(images/tool/home/copy_na.png);
 }
 .tool.course_maintenance{
-	background-image: url(images/tool/home/backup.png);
+	background-image: url(images/tool/home/new/solucion-de-problemas.png);
 }
 .tool.course_maintenance.invisible{
 	background-image: url(images/tool/home/backup_na.png);
 }
 .tool.tracking{
-	background-image: url(images/tool/home/reporting.png);
+	background-image: url(images/tool/home/new/reporte-de-negocios.png);
 }
 .tool.tracking.invisible{
 	background-image: url(images/tool/home/reporting_na.png);
 }
 .tool.course_setting{
-	background-image: url(images/tool/home/settings.png);
+	background-image: url(images/tool/home/new/llave-inglesa.png);
 }
 .tool.course_setting.invisible{
 	background-image: url(images/tool/home/settings_na.png);
 }
 .tool.gradebook{
-	background-image: url(images/tool/home/evaluation.png);
+	background-image: url(images/tool/home/new/sombrero-de-graduado.png);
 }
 .tool.gradebook.invisible{
 	background-image: url(images/tool/home/evaluation_na.png);
